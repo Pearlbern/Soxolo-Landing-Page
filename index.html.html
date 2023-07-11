@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: right;
+            gap: 25px;
+            padding-right: 25px;
+        }
+
+        .Home {
+            color: rgb(234, 161, 25);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            padding: 20px;
+        }
+
+        .S {
+            color: rgb(242, 161, 10);
+        }
+
+        .soxolo-span {
+            display: flex;
+        }
+
+        .oxolo {
+            color: rgb(251, 248, 248);
+        }
+
+        .first-div {
+            height: 400px;
+            background-image: url(/images\ \(15\).jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-blend-mode: darken;
+            background-color: rgba(0, 0, 0, 0.7)
+        }
+
+        .digital-marketing {
+            color: rgb(243, 164, 16);
+        }
+
+        .second-div {
+            height: 70px;
+            color: white;
+            background-color: rgb(243, 164, 16);
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+            align-items: center;
+            padding: 5px;
+            padding-left: 50px;
+            padding-right: 100px;
+        }
+
+        h1,
+        p {
+            color: white;
+            text-align: center;
+        }
+
+        .middle-text {
+            margin-top: 80px;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .button {
+            width: 140px;
+            height: 35px;
+            margin: auto;
+            border-radius: 25px;
+            text-align: center;
+        }
+
+        .button-1 {
+            color: white;
+            background-color: rgb(255, 165, 0);
+        }
+
+        .button-1:hover {
+            background-color: black;
+            color: orange;
+        }
+
+        .button-2:hover {
+            background-color: orange;
+            color: black;
+        }
+
+        .third-div {
+            background-color: white;
+            height: 80px;
+            padding-top: 35px;
+            text-align: center;
+        }
+
+        .p {
+            color: black;
+        }
+
+        .fourth-div {
+            display: flex;
+            gap: 35px;
+            background-color: white;
+            padding-bottom: 40px;
+            justify-content: center;
+        }
+
+        .bottom {
+            margin-top: 30px;
+            height: 220px;
+            width: 350px;
+            box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .p-bottom {
+            color: black;
+            text-align: left;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .h2-bottom {
+            padding: 20px;
+        }
+
+        textarea {
+            border-top-left-radius: 40px;
+            height: 33px;
+            border-bottom-left-radius: 40px;
+            border: 2px solid white;
+            background: transparent;
+            outline: none;
+        }
+
+        .icon-button {
+            background-color: white;
+            width: 80px;
+            border: none;
+            border-top-right-radius: 40px;
+            border-bottom-left-radius: 40px;
+        }
+
+        .fa-envelope {
+            font-size: 37px;
+            color: orange;
+        }
+
+        .div {
+            display: flex;
+            gap: 1px;
+        }
+    </style>
+</head>
+
+<body class="body">
+    <!--FIRST DIV-->
+    <div class="first-div">
+        <nav>
+            <span class="soxolo-span">
+                <h2 class="S">S</h2>
+                <h2 class="oxolo">OXOLO</h2>
+            </span>
+
+            <span>
+                <ul>
+                    <li><a href="http://" class="Home">Home</a></li>
+                    <li><a href="http://" class="Home">About</a></li>
+                    <li><a href="http://" class="Home">Services</a></li>
+                    <li><a href="http://" class="Home">Team</a></li>
+                    <li><a href="http://" class="Home">Portfolio</a></li>
+                    <li><a href="http://" class="Home">Price</a></li>
+                    <li><a href="http://" class="Home">Blog</a></li>
+                    <li><a href="http://" class="Home">Contact</a></li>
+                </ul>
+            </span>
+        </nav>
+        <section class="middle-text">
+            <h1>THE BEST<span class="digital-marketing"> DIGITAL MARKETING</span> & BRANDING</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto consequatur perferendis molestiae aperiam
+                et at <br> eaque fuga ratione vel facere. Nisi, numquam voluptatibus, cum ad delectus ipsa repellat
+                quisquam suscipit vitae in fugit. Placeat vitae neque aliquid ducimus error <br> minus sint provident
+                itaque? Quod excepturi, harum dignissimos a iste assumenda?</p>
+            <button class="button-1 button">Get Started</button> &nbsp;
+            <button class="button-2 button"><i class="fa-solid fa-circle-play"></i> Watch Now</button>
+        </section>
+    </div>
+    <!--SECOND DIV-->
+    <div class="second-div">
+        <div class="h3">
+            <h3>Join the soxolo! Sign up for the latest updates and news</h3>
+        </div>
+
+        <div class="div">
+            <span><textarea name="email" placeholder="" cols="20" rows="2"></textarea></span>
+            <span><button class="icon-button"><i class="fa-solid fa-envelope"></i></button></span>
+        </div>
+    </div>
+    <div>
+        <section>
+            <div class="third div">
+                <!--THIRD DIV-->
+                <h2>Welcome to Soloxo</h2>
+                <p class="p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Nam ratione odio
+                    voluptate, obcaecati praesentium nulla.</p>
+            </div>
+        </section>
+        <!--FOURTH DIV-->
+        <div class="fourth-div">
+            <div class="bottom-section-one bottom">
+                <h2 class="h2-bottom"><i class="fa-brands fa-artstation"></i><br><br> Creative Design</h2>
+                <p class="p-bottom">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ullam repudiandae
+                    non pariatur laboriosam quasi? </p>
+            </div>
+            <div class="bottom-section-two bottom">
+                <h2 class="h2-bottom"><i class="fa-solid fa-code"></i> <br><br> Friendly Codes</h2>
+                <p class="p-bottom"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque autem debitis
+                    dolorem fugit mollitia! Magni.
+                </p>
+
+            </div>
+            <div class="bottom-section-three bottom">
+                <h2 class="h2-bottom"><i class="fa-solid fa-user-tie"></i> <br><br> Fast Support</h2>
+                <p class="p-bottom"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ab numquam quos
+                    deserunt saepe consequuntur.</p>
+
+            </div>
+        </div>
+</body>
+
+</html>
